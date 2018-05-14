@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Good application</title>
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="kiosk.js"></script>
+		<link rel="stylesheet" href="kiosk.css">
+	</head>
+  	<body>
+		<div class="wrapper">
+			<div class="navigation">
+				<p class="navbutton news">Library News and Events</p>
+				<p class="navbutton wayfinder">McHenry Wayfinder</p>
+				<p class="navbutton rooms">Reserve a Room</p>
+				<p class="navbutton donors">Library Donors</p>
+				<p class="navbutton maps">Campus Maps</p>
+				<p class="navbutton directory">UCSC Directory</p>
+				<p class="navbutton feedback">Kiosk Feedback</p>
+			</div>
+			<div class="main">
+				<webview id="content" src="https://library.ucsc.edu/news"></webview>
+			</div>
+		</div>
+  	</body>
+</html>

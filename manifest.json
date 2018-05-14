@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "McHenry Kiosk",
+  "minimum_chrome_version": "24.0.1307.0",
+  "version": "2.05",
+  "kiosk_enabled" : true,
+  "icons": {"128": "128.png"},
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "permissions": [
+    "webview", "fullscreen", "<all_urls>"
+  ]
+}
